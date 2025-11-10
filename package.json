@@ -1,0 +1,16 @@
+{
+  "name": "convertir-documento-api",
+  "version": "1.0.0",
+  "description": "API para convertir PDF a imágenes base64 y buscar valores",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdfjs-dist": "^3.9.179",
+    "canvas": "^2.11.2",
+    "node-fetch": "^3.3.1"
+  },
+  "type": "module"
+}
