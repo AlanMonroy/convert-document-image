@@ -2,6 +2,9 @@ import express from 'express';
 import pdfjsLib from 'pdfjs-dist/legacy/build/pdf.js';
 import fetch from 'node-fetch';
 import { createCanvas } from 'canvas';
+import cors from 'cors';
+app.use(cors()); // permite cualquier origen
+
 
 const app = express();
 app.use(express.json({ limit: '50mb' })); // Para PDFs grandes
